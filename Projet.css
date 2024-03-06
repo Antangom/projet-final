@@ -1,0 +1,435 @@
+.titree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.titre {
+  color: blue;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 100px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+nav ul li {
+display: inline;
+margin-right: 50px;
+flex-direction: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+header {
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+  
+  .about {
+    height: 345px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+
+     .histoire {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(163, 9, 9);
+    margin-left: 20px;
+
+}
+.vision {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(78, 153, 240);
+    margin-left: 40px;
+   
+}
+.mission {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color:grey;
+    margin-left: 40px;
+}
+
+.valeur {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color:red;
+    margin-left: 40px;
+
+    }
+
+    .about h1 {
+        font-weight: 300;
+        font-size: larger;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .about p {
+        font-weight: 300;
+        font-size: larger;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    .propos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+
+
+    .vision img {
+      margin-top: 10px;
+      margin-left: 100px;
+  }
+  .histoire img {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.mission img {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.valeur img {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.logo img{
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+
+
+.service {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  color: blue;
+
+}
+
+
+
+.services1 {
+  height: 345px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  }
+
+   .cnc {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 20px;
+
+}
+.laser {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 40px;
+ 
+}
+.imprimante3D {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color:white;
+  margin-left: 40px;
+}
+.service2 {
+  height: 345px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  }
+
+.kit {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color:white;
+  margin-left: 20px;
+  margin-top:70px ;
+
+}
+.edison {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 40px;
+  margin-top: 70px;
+ 
+}
+.mblock {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color:white;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+.imprimante3D img{
+  margin-top: 10px;
+  margin-left: 100px;
+
+}
+
+.cnc img{
+  margin-top: 10px;
+  margin-left: 100px;
+
+}
+.laser img{
+  margin-top: 10px;
+  margin-left: 100px;
+
+}
+
+
+.kit img{
+  margin-top: 10px;
+  margin-left: 100px;
+
+}
+
+.edison img{
+  margin-top: 10px;
+  margin-left: 100px;
+
+}
+.mblock img{
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.activités {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  color: rgb(163, 9, 9)
+}
+.titre3 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  color: rgb(163, 9, 9)
+}
+.activité{
+  height: 345px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  }
+
+.image1 {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+   margin-left: 40px;
+  margin-top: 70px;
+ 
+}
+.image2 {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+   margin-left: 40px;
+  margin-top: 70px;
+ }
+ .fablab{
+  text-align: center;
+  margin-top: 70px;
+  font-size: 30px;
+  color: rgb(163, 9, 9)
+}
+
+.image1 {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+   margin-left: 40px;
+  margin-top: 70px;
+ 
+}
+.image2 {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+   margin-left: 40px;
+  margin-top: 70px;
+ }
+
+ .instaler{
+  display: flex;
+   margin-top: 70px;
+  font-size: 30px;
+  color: rgb(163, 9, 9)
+}
+
+.image3 {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+   margin-left: 80px;
+  margin-top: 20px;
+ 
+}
+.image4 {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+   margin-left: 120px;
+  margin-top: 20px;
+ }
+
+ .distinction{
+  display: flex;
+   margin-top: 10px;
+  font-size: 30px;
+  color: black;
+}
+.texte1 {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+   margin-left: 80px;
+  margin-top: 10px;
+  }
+.texte2 {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+   margin-left: 120px;
+  margin-top: 10px;
+   }
+   .prix{
+    display: flex;
+     margin-top: 70px;
+    font-size: 30px;
+  }
+
+  .texte7{
+    display: flex;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(163, 9, 9);
+    text-align: center;
+  }
+
+ .image5 {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+     margin-left: 80px;
+    margin-top: 10px;
+    }
+  .image6 {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+     margin-left: 150px;
+    margin-top: 10px;
+    }
+
+    .image9 {
+      display: flex;
+       margin-left: 120px;
+      margin-top: 10px;
+      flex-direction: column;
+      }
+
+      .fin{
+        display: flex;
+         margin-top: 10px;
+        text-align: center;
+        color: rgb(163, 9, 9);
+        font-size: 30px;
+      }
+      .contacte{
+      margin-top: 10px;
+         margin-left:30px ;
+        text-align: center;
+        color: rgb(163, 9, 9);
+        font-size: 30px;
+      }
+
+      
+    
+
+
+
